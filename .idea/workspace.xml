@@ -7,6 +7,7 @@
     </list>
     <ignored path="hackathon2016.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481643211876</updated>
       <workItem from="1481643213867" duration="302000" />
-      <workItem from="1481643568173" duration="152000" />
+      <workItem from="1481643568173" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454000" />
+    <option name="totallyTimeSpent" value="475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="6" />
