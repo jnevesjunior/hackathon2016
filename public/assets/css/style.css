@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+section {
+    background-image: url('../images/bg.jpg');
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.min-h {
+    min-height: 100px;
+}
+
+.score {
+    background-color: #efefef;
+    margin: 0 auto;
+    height: 100px;
+    width: 117px;
+    padding: 24px 35px;
+    border-left: 1px solid #CCC;
+    font-size: 36px;
+}
+
+.p-image {
+    width: 83px;
+    margin-top: 8px;
+}

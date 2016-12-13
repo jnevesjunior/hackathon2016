@@ -1,0 +1,50 @@
+<section class="row full-height" style="margin: 0px;">
+    <div class="col s7">
+        <div class="logo col s12" style="text-align:center;">
+            <img src="/assets/images/hack-logo.png" width="550px" style="margin:0 auto;" />
+        </div>
+        <div class="col s12" ng-repeat="first in data | limitTo:quantity">
+            <div class="card min-h">
+              <div class="col s2" style="width: 132px;">
+                <img ng-src="/assets/images/dbz/{{first.name}}.png" class="p-image" />
+              </div>
+              <div class="col s4">
+                <h4>{{first.name}}</h4>
+                  <!--<p>-----</p>-->
+              </div>
+              <div class="score right">
+                <div >{{first.score}}</div>
+              </div>
+            </div>
+        </div>
+        <div class="col s6" ng-repeat="middle in data.slice(2,entries.length) | limitTo:quantityMiddle">
+            <div class="card min-h">
+              <div class="col s3">
+                <img ng-src="/assets/images/dbz/{{middle.name}}.png" class="p-image" />
+              </div>
+              <div class="col s4">
+                <h4>{{middle.name}}</h4>
+                <!--<p>-----</p>-->
+              </div>
+              <div class="score right">
+                <div >{{middle.score}}</div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col s12" ng-repeat="last in data.slice(8,entries.length) | limitTo:quantity">
+            <div class="card min-h">
+              <div class="col s2" style="width: 132px;">
+                <img ng-src="/assets/images/dbz/{{last.name}}.png" class="p-image" />
+              </div>
+              <div class="col s4">
+                <h4>{{last.name}}</h4>
+                  <!--<p>-----</p>-->
+              </div>
+              <div class="score right">
+                <div >{{last.score}}</div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
